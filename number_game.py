@@ -4,6 +4,7 @@ rand_num = random.randint(1, 10)
 guessed_nums = []
 allowed_guesses = 5
 
+
 while len(guessed_nums) < allowed_guesses:
   guess = input("Guess a number between 1 and 10: ")
   
